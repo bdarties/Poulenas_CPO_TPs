@@ -36,7 +36,7 @@ public class Stats_POULENAS {
         }
         int j=0;
         while (j<6) {
-            System.out.println("Il y a eu "+Tableau[j]/m*100+" %, de "+(j+1));
+            System.out.println("Il y a eu "+Tableau[j]/m*100.0+" %, de "+(j+1));
             j=j+1;
         }
                 
