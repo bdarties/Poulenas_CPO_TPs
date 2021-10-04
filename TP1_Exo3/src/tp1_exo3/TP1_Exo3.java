@@ -60,7 +60,7 @@ public class TP1_Exo3 {
                 if (cpt>5) {
                     System.out.println("Vous avez perdu, le nombre était "+n1);
                     break;
-                }System.out.println("Vous avez gangé, en faisant "+cpt+" coups");
+                }
             }else if (nbUtilisateur<n1){ // Si notre nombre est trop petit
                 System.out.println("Trop petit");
                 nbUtilisateur=sc.nextInt(); // Resaisir un nombre 
@@ -68,7 +68,7 @@ public class TP1_Exo3 {
                 if (cpt>5) {
                     System.out.println("Vous avez perdu, le nombre était "+n1);
                     break;
-                }System.out.println("Vous avez gangé, en faisant "+cpt+" coups");
+                }
             }
            
          }
@@ -87,7 +87,7 @@ public class TP1_Exo3 {
                 if (cpt>20) {
                     System.out.println("Vous avez perdu, le nombre était "+n1);
                     break;
-                }System.out.println("Vous avez gangé, en faisant "+cpt+" coups");
+                }
             }else if (nbUtilisateur<n1){ // Si notre nombre est trop petit
                 System.out.println("Trop petit");
                 nbUtilisateur=sc.nextInt(); // Resaisir un nombre 
@@ -95,7 +95,7 @@ public class TP1_Exo3 {
                 if (cpt>20) {
                     System.out.println("Vous avez perdu, le nombre était "+n1);
                     break;
-                }System.out.println("Vous avez gangé, en faisant "+cpt+" coups");
+                }
             }
         }
     }
