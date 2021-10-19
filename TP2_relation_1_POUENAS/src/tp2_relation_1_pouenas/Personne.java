@@ -17,6 +17,7 @@ public class Personne {
         nom = unNom;
         prenom = unPrenom;
         liste_voitures = new Voiture [3] ;
+        nbVoitures=0;
 
     }   
     @Override
