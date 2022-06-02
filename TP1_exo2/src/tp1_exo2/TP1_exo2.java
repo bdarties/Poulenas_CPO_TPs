@@ -23,6 +23,8 @@ public class TP1_exo2 {
         Scanner sc; 
         sc = new Scanner(System.in);
         double temperature;
+
+        // ok 
         System.out.println("Bonjour saisisez une valeur :");
         temperature = sc.nextFloat();
         System.out.println("Saisissez la conversion que vous souhaiter effectuer : \n1) De Celcius vers Kelvin \n2) De Kelvin vers Celcius \n3) De Celcius vers Farenheit \n4) De Farenheit vers Celcius \n5) De Kelvin vers Farenheit \n6) De Farenheit vers Kelvin");
